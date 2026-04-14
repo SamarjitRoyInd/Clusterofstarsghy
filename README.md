@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+# 🌟 Cluster of Stars – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for the official website of **Cluster of Stars**, an NGO dedicated to supporting underprivileged students by providing education, resources, and opportunities to help them grow.
 
-Currently, two official plugins are available:
+🔗 Live Website: https://clusterofstarsghy.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Cluster of Stars focuses on empowering students who lack access to basic educational support. This website showcases:
 
-## Expanding the ESLint configuration
+* Our mission and vision
+* Ongoing and past initiatives
+* Student support programs
+* Donation and contribution details
+* Journey and impact stories
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This project is built using modern frontend technologies:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* ⚛️ React (with TypeScript)
+* ⚡ Vite (for fast development & build)
+* 🎨 CSS / Tailwind (if applicable — update if needed)
+* 🌐 Deployed on Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+Clusterofstarsghy/
+│── public/          # Static assets
+│── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Page-level components
+│   ├── assets/      # Images, icons, etc.
+│   ├── App.tsx      # Main app component
+│   └── main.tsx     # Entry point
+│── index.html
+│── package.json
+│── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SamarjitRoyInd/Clusterofstarsghy.git
+cd Clusterofstarsghy
 ```
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the website or add new features:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## ❤️ Support the Cause
+If you believe in our mission, consider supporting us through donations or by spreading awareness.
+
+---
+
+## 📧 Contact
+For queries or collaborations, feel free to reach out:
+
+* Email: samarjitroy30@gmail.com
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to star the repo!
