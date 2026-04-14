@@ -88,7 +88,7 @@ const Contact = () => {
               <div className="form-placeholder">
                 <p className="text-center text-body">
                   <em>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfx5xFmygt_FHiOebj9sWZWyg1pFuqxW3RZrdAeGZh8x6SisA/viewform?embedded=true" width="640" height="400" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfx5xFmygt_FHiOebj9sWZWyg1pFuqxW3RZrdAeGZh8x6SisA/viewform?embedded=true" width="640" height="400">Loading…</iframe>
                   </em>
                 </p>
               </div>
