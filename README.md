@@ -2,7 +2,7 @@
 
 This repository contains the source code for the official website of **Cluster of Stars**, an NGO dedicated to supporting underprivileged students by providing education, resources, and opportunities to help them grow.
 
-🔗 Live Website: https://clusterofstarsghy.vercel.app/
+🔗 Live Website: https://www.clusterofstars.org/
 
 ---
 
